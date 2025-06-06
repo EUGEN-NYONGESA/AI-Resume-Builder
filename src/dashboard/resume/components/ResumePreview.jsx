@@ -5,6 +5,10 @@ import SummeryPreview from './preview/SummeryPreview';
 import ExpreriencePreview from './preview/ExperiencePreview';
 import EducationPreview from './preview/EducationPreview';
 import SkillReview from './preview/SkillReview';
+import LanguagePreview from './preview/LanguagePreview';
+import CertificatePreview from './preview/CertificatePreview';
+import SocialsPreview from './preview/SocialsPreview';
+import RefereesPreview from './preview/RefereesPreview';
 
 
 function ResumePreview() {
@@ -27,10 +31,13 @@ function ResumePreview() {
         {/* Skills */}
         <SkillReview resumeInfo={resumeInfo} />
         {/* Languages */}
-
+        <LanguagePreview resumeInfo={resumeInfo} />
         {/* Certifications */}
-
+        <CertificatePreview resumeInfo={resumeInfo} />
         {/* Social Profiles */}
+        <SocialsPreview resumeInfo={resumeInfo} />
+        {/* Referees */}
+        <RefereesPreview resumeInfo={resumeInfo} />
     </div>
   );
 }

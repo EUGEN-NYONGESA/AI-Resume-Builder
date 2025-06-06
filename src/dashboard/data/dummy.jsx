@@ -93,6 +93,33 @@ const dummyData = {
     { id: 2, platform: "LinkedIn", url: "https://linkedin.com/in/ethanowens" },
     { id: 3, platform: "X", url: "https://x.com/ethan_codes" },
   ],
+
+  referees: [
+    {
+      id: 1,
+      name: "Grace Mutiso",
+      company: "TechBridge Africa",
+      position: "Engineering Manager",
+      email: "grace.mutiso@techbridgeafrica.com",
+      phone: "+254 711 234 567",
+    },
+    {
+      id: 2,
+      name: "Samuel Kariuki",
+      company: "PixelWave Studios",
+      position: "Creative Director",
+      email: "samuel.k@pixelwave.co.ke",
+      phone: "+254 733 456 789",
+    },
+    {
+      id: 3,
+      name: "Dr. Wanjiru Njoroge",
+      company: "University of Nairobi",
+      position: "Lecturer, Computer Science Dept.",
+      email: "wanjiru.njoroge@uonbi.ac.ke",
+      phone: "+254 700 123 321",
+    },
+  ],
 };
 
 export default dummyData;

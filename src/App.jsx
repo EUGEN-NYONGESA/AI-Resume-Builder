@@ -2,6 +2,7 @@ import { Navigate, Outlet } from 'react-router-dom'
 import './App.css'
 import { useUser } from '@clerk/clerk-react'
 import Header from './components/custom/Header'
+import { Toaster } from 'sonner';
 
 function App() {
   const { isLoaded, isSignedIn } = useUser();
@@ -18,6 +19,7 @@ function App() {
     <>
       <Header />
       <Outlet />
+      <Toaster />
     </>
   )
 }
